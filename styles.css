@@ -1,0 +1,153 @@
+
+body{
+    background-color: #fff7b8;
+}
+
+.top{
+    background-color: #E9A200;
+    color: white;
+}
+
+.heading{
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+    border: 20px;
+    font-size: large
+}
+.hi{
+    display: inline-block;
+    margin-right: 100px;
+    position: relative;
+    left: 50px;
+}
+
+.center p{
+    background-color: whitesmoke;
+    color: black;
+    padding: 5px;
+    border-radius: 12%;
+}
+
+.purple{
+    background-color: #E9A200;
+    display: inline-block;
+    width: 600px;
+    height: 150px;
+    border-radius: 10px;
+    font-size: 2.5rem
+}
+
+.purple{
+    position: relative;
+    left: 200px;
+    top: 50px;
+}
+
+.purple2{
+    background-color: #E9A200;
+    display: inline-block;
+    width: 600px;
+    height: 150px;
+    border-radius: 10px;
+    font-size: 2.5rem 
+}
+
+.purple2{
+    position: relative;
+    left: 200px;
+    top: 50px;
+    margin-left: 20px;
+}
+
+
+
+
+
+.order{
+    background-color: black;
+    color: azure;
+    width: fit-content;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 50px;
+    font-size: medium;
+    margin-left: 100px;
+    position: relative;
+    bottom: 20px;
+}
+
+.size{
+    height: 140px;
+    width: 150px;
+    position: relative;
+    bottom: 150px;
+    left: 425px
+}
+
+.position{
+    position: relative;
+    left: 50px;
+}
+
+@media(max-width: 680px) {
+    .purple{
+        width: 300px;
+        height: 75px;
+        font-size: 1rem;
+        margin-left: 52px;
+        margin-top: 25px;
+        position: relative;
+        left: -10px;
+    }
+
+    .order{
+        position: relative;
+        bottom: 7px;
+        margin-left: 50px;
+    }
+
+    .size{
+        height: 75px;
+        width: 75px;
+        position: relative;
+        bottom: 80px;
+        left: 200px;
+    }
+
+    .center{
+        font-size: small;
+    }
+
+    .hi{
+        display: inline-block;
+    }
+
+    .center p{
+        display: inline;
+        position: relative;
+        left: 10px;
+        bottom: 5px;
+    }
+
+    .hi{
+        width: 1%;
+    }
+
+    .purple2{
+        width: 300px;
+        height: 75px;
+        font-size: 1rem;
+        margin-left: 52px;
+        margin-top: 25px;
+        position: relative;
+        left: -10px;
+        top: -50px;
+    }
+
+}
+
+
+
